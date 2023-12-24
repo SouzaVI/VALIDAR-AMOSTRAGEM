@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/gerar_etapa" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

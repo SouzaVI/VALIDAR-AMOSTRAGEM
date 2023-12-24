@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>gerar_etapaDockWidgetBase</class>
+ <widget class="QDockWidget" name="gerar_etapaDockWidgetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gerar Etapa</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>CAMADA ETAPA:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>IMPORTAR TRAJETO</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>OS:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>ARQUIVO ORGANIZADO:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="16" column="0">
+     <widget class="QgsFilterLineEdit" name="mLineEdit_os">
+      <property name="qgisRelation" stdset="0">
+       <string notr="true"/>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QgsFileWidget" name="ENTRADA_EXCEL">
+      <property name="filter">
+       <string>*.xlsx</string>
+      </property>
+      <property name="storageMode">
+       <enum>QgsFileWidget::GetMultipleFiles</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>ORGANIZAR EXCEL ENVIADO PELO AT</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_IMPORTA_TRJ">
+      <property name="text">
+       <string>IMPORTAR TRJ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>CRIAR SELEÇÃO DOS PONTOS COLETADOS E NÃO COLETADOS</string>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="0">
+     <widget class="QPushButton" name="pushButton_INVERTER_COLETA">
+      <property name="text">
+       <string>INVERTER COLETA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>INVERTER COLETA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="ORGANIZAR_EXCEL">
+      <property name="text">
+       <string>ORGANIZAR EXCEL</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QgsMapLayerComboBox" name="mMapLayerComboBox_PONTOS"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="IMPORTAR_ETAPA">
+      <property name="text">
+       <string>IMPORTAR ETAPA</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QPushButton" name="SELECAO_PONTOS">
+      <property name="text">
+       <string>CRIAR SELEÇÃO</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>IMPORTAR ETAPA GPX</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QgsFileWidget</class>
+   <extends>QWidget</extends>
+   <header>qgsfilewidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QgsFilterLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qgsfilterlineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QgsMapLayerComboBox</class>
+   <extends>QComboBox</extends>
+   <header>qgsmaplayercombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
