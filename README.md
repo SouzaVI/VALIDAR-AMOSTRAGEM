@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Bem-vindo ao desenvolvimento do plugin para QGIS, uma ferramenta dedicada à simplificação e melhoria da validação de pontos de amostras coletados. Este plugin foi projetado para facilitar a verificação utilizando um arquivo Excel fornecido pelos assistentes técnicos, estabelecendo uma conexão eficiente entre esses pontos e um arquivo GPX. O processo automático de validação e a geração de um relatório detalhado proporcionam uma gestão precisa e eficiente dos dados amostrais.
+ Ferramenta dedicada à simplificação e melhoria da validação de pontos de amostras coletados. Este plugin foi projetado para facilitar a verificação utilizando um arquivo Excel fornecido pelos assistentes técnicos, estabelecendo uma conexão eficiente entre esses pontos e um arquivo GPX. O processo automático de validação e a geração de um relatório detalhado proporcionam uma gestão precisa e eficiente dos dados amostrais.
 
 ## Requisitos
 
