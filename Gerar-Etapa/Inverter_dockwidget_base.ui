@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InverterBandeiraDockWidgetBase</class>
+ <widget class="QDockWidget" name="InverterBandeiraDockWidgetBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>424</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Inverter Bandeira</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>374</width>
+     <height>218</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="spacing">
+       <number>2</number>
+      </property>
+      <property name="sizeConstraint">
+       <enum>QLayout::SetMinimumSize</enum>
+      </property>
+      <item>
+       <widget class="QComboBox" name="comboBoxBandeiras">
+        <item>
+         <property name="text">
+          <string>Ponto (0  a 10)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bandeira Verde (10 a 20)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bandeira Vermelha (20 a 40 de 0 a 10) </string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bandeira Azul (0 a 20)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Aviao (20 a 40 de 0 a 20)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ancora (60 a 80)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Camping (40 a 60)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mina (80 a 100)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonTrocarBandeira">
+        <property name="text">
+         <string>Modificar  Bandeiras</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonInverterBandeira">
+        <property name="text">
+         <string>Inverter Bandeira</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonColetado">
+        <property name="text">
+         <string>Inverter Coletas</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonMesclar">
+        <property name="text">
+         <string>Mesclar Feição Selecionada</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxContador">
+        <property name="text">
+         <string>Habilitar Contador</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBoxEtapa">
+        <property name="text">
+         <string>Gerar Etapa Feito e Nova Etapa</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Exportação</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="text">
+         <string>Selecione a Pasta (Fazenda)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QgsFileWidget" name="mQgsFileWidgetPasta">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="storageMode">
+         <enum>QgsFileWidget::GetDirectory</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Etapa:</string>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignLeft">
+       <widget class="QLineEdit" name="lineEditEtapa">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Layer Amostras:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QgsMapLayerComboBox" name="mMapLayerComboBoxAmostra"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Camada de saída:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QgsFileWidget" name="mQgsFileWidgetSaida">
+        <property name="storageMode">
+         <enum>QgsFileWidget::GetDirectory</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Antes de exportar o arquivo, é &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600; color:#ff0000;&quot;&gt;essencial &lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; realizar a verificação das estratificações. É de &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600; color:#ff0000;&quot;&gt;responsabilidade&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; do usuário &lt;/span&gt;&lt;span style=&quot; font-size:8pt; font-weight:600; color:#ff0000;&quot;&gt;verificar&lt;/span&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt; todas as informações contidas nos arquivos. Caso ocorra algum problema, é importante reportá-lo ao gestor ou analista correspondente.&lt;br /&gt;Caso o problema não seja resolvido recorrer os métodos tradicionais e consolidados&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonExportar">
+        <property name="text">
+         <string>Exportar Estratificação</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QgsFileWidget</class>
+   <extends>QWidget</extends>
+   <header>qgsfilewidget.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QgsMapLayerComboBox</class>
+   <extends>QComboBox</extends>
+   <header>qgsmaplayercombobox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
