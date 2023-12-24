@@ -16,3 +16,9 @@ Bem-vindo ao desenvolvimento do plugin para QGIS, uma ferramenta dedicada à sim
 2. **Lógica de Validação:** Desenvolver uma lógica robusta para validar os pontos de amostra, identificando discrepâncias e garantindo precisão.
 3. **Interface Gráfica:** Criar uma interface gráfica intuitiva para configurar a extensão e exibir os resultados da validação.
 4. **Desenvolvimento Eficiente:** Otimizar o código para lidar com grandes conjuntos de dados sem sacrificar o desempenho.
+
+## Telas
+![gERAR ETAPA](https://github.com/SouzaVI/VALIDAR-AMOSTRAGEM/assets/98165012/05a4789f-5e7c-49da-b2a9-386827998b7d)
+![GERAR ETAPA 2](https://github.com/SouzaVI/VALIDAR-AMOSTRAGEM/assets/98165012/18fef25c-da38-40a9-a62a-0687a6e92e99)
+![INVERTER BANDEIRA](https://github.com/SouzaVI/VALIDAR-AMOSTRAGEM/assets/98165012/b9ea5341-8bda-4b3a-b7f0-8fdefba83d95)
+![RELATORIO](https://github.com/SouzaVI/VALIDAR-AMOSTRAGEM/assets/98165012/7fe31bed-1f4b-4287-827a-e3b4cbb2c4a2)
