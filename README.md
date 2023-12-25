@@ -1,6 +1,6 @@
-# QGIS Plugin: Validação de Pontos de Amostrais e Geração de Novos Registros
+## QGIS Plugin: Validação de Pontos de Amostrais e Geração de Novos Registros
 
-## Introdução
+## Contextualização
 
  Ferramenta dedicada à simplificação e melhoria da validação de pontos de amostras coletados. Este plugin foi projetado para facilitar a verificação utilizando um arquivo Excel fornecido pelos assistentes técnicos, estabelecendo uma conexão eficiente entre esses pontos e um arquivo GPX. O processo automático de validação e a geração de um relatório detalhado proporcionam uma gestão precisa e eficiente dos dados amostrais.
 
