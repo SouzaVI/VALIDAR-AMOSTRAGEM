@@ -8,9 +8,8 @@
 
 - QGIS 3.28 ou superior.
 
-## Desenvolvimento
 
-### Desafios Enfrentados
+## Desafios Enfrentados
 
 1. **Integração de Dados:** Integrar eficientemente os dados provenientes de arquivos Excel e GPX no ambiente de desenvolvimento do QGIS.
 2. **Lógica de Validação:** Desenvolver uma lógica robusta para validar os pontos de amostra, identificando discrepâncias e garantindo precisão.
